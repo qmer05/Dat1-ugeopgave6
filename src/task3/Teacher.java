@@ -2,13 +2,14 @@ package task3;
 
 import java.util.ArrayList;
 
-public class Teacher extends Person{
-
+public class Teacher extends Person {
     ArrayList<String> canTeach;
     ArrayList<String> currentCourses;
-    public Teacher(String name, ArrayList<String> canTeach){
+
+    public Teacher(String name, ArrayList<String> canTeach, ArrayList<String> currentCourses) {
         super(name);
-        this.canTeach = new ArrayList<>();
+        this.canTeach = canTeach;
+        this.currentCourses = currentCourses;
     }
 
     @Override

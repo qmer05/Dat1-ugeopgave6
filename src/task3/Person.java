@@ -18,4 +18,7 @@ public abstract class Person {
 
     public abstract boolean addCourse(String course);
 
+    public String toString(){
+        return name;
+    }
 }
