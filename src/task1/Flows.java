@@ -1,6 +1,6 @@
 package task1;
 
-public class Class {
+public class Flows {
 
     public void methodA(String input) {
         System.out.println("a");
