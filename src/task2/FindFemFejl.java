@@ -18,5 +18,6 @@ public class FindFemFejl {
 
         // Afbestil reservation på række 1, sæde 5
         System.out.println("Række 1, sæde 5 er afbestilt: " + biogrande.cancelReservation(1, 5));
+        System.out.println(biogrande);
     }
 }
